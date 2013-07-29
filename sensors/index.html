@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
     <title>Sens0rs!</title>
     <script type="text/javascript" charset="utf-8" src="../vendor/jquery-2.0.2.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="../vendor/sb-1.3.0.min.js"></script>
@@ -10,16 +12,41 @@
       html { width: 100%; }
       body {
         background: #222;
+        color: #eee;
+        font-size: 150%;
         margin: 0px;
         padding: 0px;
       }
-      .light {
-        background: #222;
-        border: 1px solid black;
-        float: left;
+      #io {
+        width: 16em;
+        margin: 0 auto;
+        padding: 1em 0 0;
       }
     </style>
   </head>
   <body>
+    <div id="io">
+      
+      <h1>Device Sensors</h1>
+
+      <h2>Motion</h2>
+      <div id="motion" class="">
+        <div id="motion-output">Not Supported</div>
+        <div id="motion-input"></div>
+      </div>
+
+      <h2>Orientation</h2>
+      <div id="orientation" class="">
+        <div id="orientation-output">Not Supported</div>
+        <div id="orientation-input"></div>
+      </div>
+
+      <h2>Ambient Light</h2>
+      <div id="ambient" class="">
+        <div id="ambient-output">Not Supported</div>
+        <div id="ambient-input"></div>
+      </div>
+    
+    </div>
   </body>
 </html>
