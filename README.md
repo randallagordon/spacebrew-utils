@@ -4,8 +4,8 @@ Some utilities for working with [Spacebrew](http://docs.spacebrew.cc/)
 
 ### The Utilities
 
- * [Blinkenlights!](https://rawgithub.com/randallagordon/spacebrew-utils/master/blinkenlights/index.html) - Lights, which blink! Useful for debugging booleans
- * [Sensors](https://rawgithub.com/randallagordon/spacebrew-utils/master/sensors/index.html) - Send a variety of sensor data to Spacebrew: Orientation,
+ * [Blinkenlights!](http://rawgit.com/randallagordon/spacebrew-utils/master/blinkenlights/index.html) - Lights, which blink! Useful for debugging booleans
+ * [Sensors](http://rawgit.com/randallagordon/spacebrew-utils/master/sensors/index.html) - Send a variety of sensor data to Spacebrew: Orientation,
    motion, ambient light
 
 ### TODO
